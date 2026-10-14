@@ -17,4 +17,6 @@ terraform {
 # ARM_SUBSCRIPTION_ID environment variable, so no IDs end up in Git.
 provider "azurerm" {
   features {}
+
+  #resource_provider_registrations = "none"
 }
